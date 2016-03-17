@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relayout_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <CalendarView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scrollbarStyle="insideOverlay"
+        android:foregroundGravity="top"
+        android:measureAllChildren="true"
+        android:layoutDirection="locale"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:nestedScrollingEnabled="true"
+        android:backgroundTintMode="multiply"
+        android:filterTouchesWhenObscured="true"
+        android:id="@+id/card_view">
+    </CalendarView>
+</RelativeLayout>
+
+
